@@ -23,7 +23,9 @@ $headers = 'From:'. $email .  "\r\n";// Sender's Email
 // Message lines should not exceed 70 characters (PHP rule), so wrap it
 $message = wordwrap($message, 70);
 // Send Mail By PHP Mail Function
-mail("goyalpratiksha20@gmail.com", $subject, $message, $headers);
+mail("pratiksha.goyal@indifi.com", $subject, $message, $headers);
+mail("pratiksha.goyal@indifi.com","My subject",$msg);
+
 echo "Your mail has been sent successfuly ! Thank you for your feedback";
 }
 }
